@@ -1,0 +1,4 @@
+*:not(body):not(html) {
+	box-sizing:border-box;
+	border:1px dashed #000;
+}
