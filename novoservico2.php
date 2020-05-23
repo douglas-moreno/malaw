@@ -114,7 +114,7 @@
 	{
 		
 		$sqlprestador = "Select * FROM Prestador where Ativo = 1 Order By Prestador";
-		$sqlTipo = "Select * FROM Tipo where Ativo = 1 order by Tipo";
+		$sqlTipo = "Select * FROM Tipo WHERE Ativo = 1 order by Tipo";
 		
     	$queryPre = $DB->Query($sqlprestador);
     	$querytipo = $DB->Query($sqlTipo); ?>
